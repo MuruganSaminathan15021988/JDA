@@ -1,0 +1,59 @@
+{
+  "AvgTransitLeadTime": "4",
+  "AvgTransitDelay": "0.33",
+  "OrderPickingAccuracy": "97.2",
+  "RateOfReturns": "13.3",
+  "LossinShrinkage": "7.5",
+  "OnTimeInFullDelivery": "55.3",
+  "SlippageReason": [
+    {
+      "Reason": "WrongPackaging",
+      "Value": "40"
+    },
+    {
+      "Reason": "LostInStorage",
+      "Value": "40"
+    },
+    {
+      "Reason": "WrongPartDelivery",
+      "Value": "40"
+    },
+    {
+      "Reason": "DelayedDelivey",
+      "Value": "40"
+    },
+    {
+      "Reason": "AssetCapacityStorage",
+      "Value": "40"
+    }
+  ],
+  "OntimeFullDelivery": [
+    {
+      "Redex": "60",
+      "AIB": "70"
+    }
+  ],
+  "ShrinkageLoss": [
+    {
+      "Redex": "60",
+      "AIB": "70"
+    }
+  ],
+  "AvgTransitLeadTimeVsTransitDelays": [
+    {
+      "Date": "28/09/2019",
+      "TransitLeadTime": "7",
+      "TransitDelay": "1"
+    },
+    {
+      "Date": "29/09/2019",
+      "TransitLeadTime": "8",
+      "TransitDelay": "2"
+    },
+    {
+      "Date": "30/09/2019",
+      "TransitLeadTime": "6",
+      "TransitDelay": "3"
+    }
+  ]
+}
